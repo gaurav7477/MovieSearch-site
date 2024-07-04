@@ -1,0 +1,74 @@
+.landing-page {
+    background: linear-gradient(
+      63deg,
+      #eb22a4 0%,
+      #a46d4d 12.34%,
+      #b2256a 24.93%,
+      #9e02a4 44.96%,
+      #1b41e0 72.09%,
+      #08a571 100%
+    );
+    box-shadow: 0px 0px 90px 25px rgba(255, 255, 255, 0.3) inset;
+  
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .hero-text {
+    color: #000;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  #hero1 {
+    font-size: 10vw;
+    line-height: 1;
+    letter-spacing: -0.5vw;
+  }
+  
+  #hero2 {
+    font-size: 5vw;
+    letter-spacing: -0.2vw;
+  }
+  
+  @media (max-width: 600px) {
+    #hero1 {
+      font-size: 12vw;
+      letter-spacing: -1vw;
+    }
+  
+    #hero2 {
+      font-size: 6vw;
+      letter-spacing: -0.5vw;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #hero1 {
+      font-size: 7vw;
+      letter-spacing: -0.3vw;
+    }
+  
+    #hero2 {
+      font-size: 4vw;
+      letter-spacing: -0.1vw;
+    }
+  }
+  
