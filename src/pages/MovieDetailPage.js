@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getMovieDetails } from '../api';
-import './MovieDetailPage.css';
+import '../styles/MovieDetailPage.css';
 
 function MovieDetailPage() {
   const { id } = useParams();
@@ -33,7 +33,7 @@ function MovieDetailPage() {
           <p className="movie-genre">{movie.Genre}</p>
           <p className="movie-director"><strong>Director:</strong> {movie.Director}</p>
           <p className="movie-actors"><strong>Actors:</strong> {movie.Actors}</p>
-          <p className="movie-plot">{movie.Plot}</p>
+          <p className="movie-plot"><strong>Description: </strong>{movie.Plot}</p>
         </div>
       </div>
     </div>

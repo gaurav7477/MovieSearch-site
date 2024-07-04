@@ -1,0 +1,32 @@
+.movie-list {
+  display: flex;
+  padding: 0px 32px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}.movie-search-page {
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.no-results {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #888;
+}
+
+
