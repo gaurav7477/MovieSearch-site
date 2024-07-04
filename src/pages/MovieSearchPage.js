@@ -20,8 +20,8 @@ function MovieSearchPage() {
       fetchMovies(query);
     }
   }, [location.search]);
-  // Function to fetch movies based on query
-  const fetchMovies = async (query) => {
+   // Function to fetch movies based on query
+   const fetchMovies = async (query) => {
     setLoading(true);
     const results = await searchMovies(query);
     setMovies(results);
